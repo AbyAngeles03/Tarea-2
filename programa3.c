@@ -7,14 +7,14 @@ Tarea 2*/
 
 int main()
 {
-  float dolar, pesos, conver;
+  float dolar, pesos;
 
   printf("Cantidad en dolares: \n");
   scanf("%f", &dolar);
 
   pesos = dolar * Peso;
 
-  printf("Cantidad en pesos: &f\n", pesos);
+  printf("Cantidad en pesos: %f\n", pesos);
 
   return 0;
 }
