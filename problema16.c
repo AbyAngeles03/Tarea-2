@@ -1,0 +1,24 @@
+/*Angeles Pérez Abril Monserrat
+Ejercicio 16
+Tarea 2*/
+
+#include <stdio.h>
+
+int main()
+{
+  int pares[100], i;
+  
+  for(i = 0; i < 100; i++)
+  {
+    pares[i] = (i + 1) * 2;
+  }
+  
+  printf("Los primeros 100 numeros pares son: \n");
+
+  for(i = 0; i < 100; i++)
+  {
+    printf("%d\n", pares[i]);
+  }
+  
+  return 0;
+}
